@@ -12,7 +12,7 @@
 	/*background-image: url(images/bgFinal.png);
 	background-repeat: repeat;*/
 	background-color: rgb(240,240,240);
-	min-height: 2000px;
+	min-height: 1500px;
 	margin: 0 auto;
 }
 
@@ -299,6 +299,36 @@ input[type=text] {
 	width: 150px;
 	height: auto;
 	padding-left: 40px;
+}
+.product_five .product_img {
+	position: relative;
+}
+.product_five .product_img span {
+	float: right;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: white;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	border-radius: 80%;	
+	background-color: red;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.footer {
+	height: 80px;
+	width: 100%;
+	background-color: #293451;
+}
+.container p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
 }
 
 /*
